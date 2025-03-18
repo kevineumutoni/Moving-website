@@ -731,15 +731,19 @@
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    background-image: url(images/happy-people.webp)
+    background-image: url(images/happy-people.webp);
+    background-color: rgba(255, 255, 255, .2);
+    margin-bottom: 200px;
 }
 
 
 
 
 .blog-content h3 {
-    font-size: 16px;
+    font-size: 30px;
     margin-top: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .blog-paragraph{
@@ -754,3 +758,9 @@
     margin-bottom: 100px;
 }
 
+.blog-content p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+}
