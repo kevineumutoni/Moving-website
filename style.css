@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Lilita+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=UnifrakturMaguntia&display=swap');
+.banner{
+ 
+}
+.banner-header{
+    padding: 8px 0px;
+    background-color: black;
+    margin: 0;
+
+}
+.banner-paragraph{
+    color: white;
+    text-align: center;
+
+}
+
+.navigation-left{
+    display: flex;
+}
+#navigation-left-icon{
+    color: rgb(130, 130, 231);
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 20px;
+}
+.navigation-left-text{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.navigation-right{
+    display: flex;
+}
+#navigation-right-icon{
+    color: rgb(142, 142, 240);
+    font-size: 40px;
+    margin-top:28px;
+    margin-right: 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.navigation-right-text{
+    font-size: 15px;
+}
+.banner-lists{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.banner-list-li{
+    text-decoration: none;
+    color: rgb(247, 165, 0);
+    font-weight: bolder;
+   
+
+}
+.banner-image{
+
+    width:100%;
+    height: 100vh;
+
+}
+.banner-image-div{
+    margin-top: 30px;
+}
+.texts-in-image{
+    margin-top: 250px;
+    width: 60%;
+    height: 40vh;
+    background-color: rgba(255, 255, 255, .2);
+
+}
+.body-image-texts{
+    display: inline;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/faminely.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    
+ 
+
+}
+.texts-image-paragraph{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0px;
+    width: 30%;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: 35%;
+  
+
+
+
+
+}
+.texts-image-header{
+    width: 40%;
+    font-size: 65px;
+    margin-left: 30%;
+    color: white;
+    font-weight: 200px;
+    font-family: "Open Sans", sans-serif;
+}
+.body-main-button{
+    background-color: rgb(255, 196, 0);
+    width: 20%;
+    height: 60px;
+
+}
+
+/* second section */
+/* about-left-side */
+.about-left-side{
+    margin-left: 100px;
+}
+
+
+.box{
+    width: 500px;
+    height: 60%;
+    z-index: -1;
+
+}
+
+.about-us{
+    display: flex;
+
+
+}
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+}
+
+.rectangle-box {
+    width: 500px;
+    height: 400px;
+    background-color: transparent;
+    border: 10px solid blue;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+
+.box {
+    width: 600px;
+    height: 70%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.about-top-paragraph{
+    margin-left: 100px;
+    color: rgb(255, 204, 0);
+    font-weight: bolder
+}
+.about-right-side-bottom{
+    width: 40%;
+    display: flex;
+    margin-top: 300px;
+    gap: 90px;
+
+}
+.about-right-side{
+    display: flex;
+}
+.riad-header{
+    color: rgb(255, 166, 0);
+    margin-top: 70px;
+    font-weight: bolder;
+}
+.about-right-side-bottom-text{
+    margin-top: 60px;
+}
+.logo-container-lorem {
+    background-color: rgb(61, 56, 56);
+    color: white;
+    height: 20px;
+    padding: 15px;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+  
+  }
+  
+  .logo-container-ipsum {
+    background-color: white;
+    color: black;
+    height: 20px;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 20px;
+  }
+  .logo-ipsum-box{
+      display: flex;  
+      margin-top: 30px;
+  }
+  .logo-ipsum-ball{
+    display: flex;
+
+  }
+  .logo-container{
+    display: flex;
+    justify-content: space-between;
+    margin:130px;
+  }
+
+#volleyball{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+  }
+.logo-ipsum-text{
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.logo-ipsum-burger{
+    display: flex;
+}
+#burger{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+
+}
+#shadow-ball{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+#magnifying-glass{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+
+}
+.logo-ipsum-magnify-glass{
+    display: flex;
+}
+/* styling the what we do part with different inputs */
+.packing-div{
+    background-color: rgb(255, 255, 255);
+    width: 23%;
+    height: 50vh;
+
+}
+#closed-box-icon{
+    color: white;
+    padding: 30px;
+    background-color: orange;
+    border-radius: 60px;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.packing-div-button{
+    background-color: rgb(235, 231, 231);
+    color: orange;
+    height: 70px;
+    border: none;
+    margin-left: 70px;
+    width: 60%;
+    margin-top:40px;
+    font-size: 20px;
+
+}
+.packing-div h2{
+    font-size: 30px;
+    margin-left: 150px;
+}
+.packing-div p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.storage-div{
+    background-color: blue;
+    width: 25%;
+    height: 50vh;
+}
+#home-icon{
+    color: blue;
+    padding: 30px;
+    background-color: white;
+    border-radius: 60px;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.storage-div-button{
+    background-color: rgb(17, 38, 218);
+    color: rgb(239, 235, 235);
+    height: 70px;
+    border: none;
+    margin-left: 70px;
+    width: 60%;
+    margin-top:40px;
+    font-size: 20px;
+    
+
+}.storage-div h2{
+    font-size: 30px;
+    margin-left: 150px;
+
+}
+.storage-div p{
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+#packing-div-icon{
+    color: white;
+    padding: 30px;
+    background-color: orange;
+    border-radius: 60px;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.insurance-div{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 50vh;
+
+}
+#insurance-shield-icon{
+    color: white;
+    padding: 30px;
+    background-color: orange;
+    border-radius: 60px;
+    font-size: 40px;
+    margin-left: 180px;
+    margin-top: 50px;
+
+}
+.insurance-div-button{
+    background-color: rgb(239, 233, 233);
+    color: orange;
+    height: 70px;
+    border: none;
+    margin-left: 70px;
+    width: 60%;
+    margin-top:40px;
+    font-size: 20px;
+}
+.insurance-div h2{
+    font-size: 30px;
+    text-align: center;
+
+
+}
+.insurance-div p{
+    text-align: center;
+    font-size: 20px;
+}
+.main-div-inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.section-services-paragraph{
+    color: orange;
+    font-weight: 500px;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+}
+.section-services-header{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.div-below-box-inputs{
+    display: flex;
+    gap: 100px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.image-text-below-box-inputs{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    width: 40%;
+    margin-bottom: 200px;
+}
+.below-input-header{
+    font-size: 40px;
+    width: 40%
+}
+.right-content-below-input{
+    font-size: 20px;
+}
+.riaad-company{
+    background-image: url(images/chairs.jpeg);
+    width: 15%;
+    height: 60vh;
+    background-size: cover;
+    padding: 100px;
+
+ 
+}
+.riaad-company-div{
+    background-color: rgba(255, 255, 255);
+    width: 80%;
+  
+    padding: 70px;
+
+
+}
+.riaad-company h3{
+    color: orange;
+    font-size: 30px;
+
+}
+.riaad-company h2{
+    font-size: 25px;
+}
+.blue-rectangle{
+    height:89%;
+    width: 26%;
+    background-color: rgb(56, 98, 196);
+    z-index: -1;
+
+    position: absolute;
+}
+.blue-rectangle p{
+    margin-top:750px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+}
+#tick-icons{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgb(255, 166, 0);
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.fourth-part{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 300px;
+
+
+}
+.riadd-texts-icons{
+    width: 100%;
+ 
+}
+.why-choose{
+    font-size: 90px;
+}
+.riadd-texts-icons h1{
+    font-size: 70px;
+}
+.riadd-texts-icons p{
+    font-size: 30px;
+}
+.book-online{
+    color: orange;
+    text-decoration: underline;
+}
+.middle-footer-paragraph{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+/* moving to the fifth section */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.quote-top {
+    width: 50%;
+    height: 60vh;
+    background-color: #f5b400;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    font-size: 30px;
+}
+.quote-top h2{
+    width: 30%;
+    margin-top: 100px;
+   margin-left: 350px;
+}
+
+.quote-form {
+    width: 50%;
+    height: 53vh;
+    background-color: #2c5aa0;
+    padding: 30px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sub-title{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.quote-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-form label {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.quote-form input {
+    padding: 8px;
+    width: 500px;
+    margin-top: 5px;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+}
+
+.quote-form button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 520px;
+    height: 5vh;
+    background-color: #f5b400;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* looking like a video part*/
+.video-overlay {
+   
+    display: inline;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/couple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+
+
+}
+/* play button */
+
+
+#play-button {
+
+   padding: 50px;
+   color: white;
+   border-radius: 70px;
+   font-size: 60px;
+   background-color: rgba(252, 182, 6, 0.9);
+}
+/* moving to the next section */
+.testimonials {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+}
+
+.testimony-section-subtitle {
+    color: #f4a20c;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.testimony-section-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 30px;
+    height: 30vh;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    position: relative;
+}
+
+.quote-icon {
+    font-size: 24px;
+    color: #3b82f6;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    color: #444;
+    margin: 15px 0;
+}
+
+.customer-name {
+    font-weight: bold;
+    color: #f4a20c;
+    margin-top: 10px;
+}
+
+.customer-role {
+    font-size: 12px;
+    color: gray;
+}
+
+.customer-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+
+}
+/* Newsletter Section */
+.newsletter {
+    padding: 50px 20px;
+}
+
+.news-letter-sub-title {
+    color: #f5b400;
+    font-weight: bold;
+    margin-top: 100px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.news-letter h2 {
+    font-size: 58px;
+    text-align: center;
+}
+
+.newsletter-form {
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 200px;
+
+}
+
+.newsletter-form input {
+    padding: 12px;
+    width: 550px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter-form button {
+    padding: 12px 20px;
+    width: 300px;
+    height: 75px;
+    background-color: #f5b400;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Moving to the blog section news& letters */
+
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.blog-card {
+    width: 450px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/happy-people.webp)
+}
+
+
+
+
+.blog-content h3 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.blog-paragraph{
+    color: orange;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.blog h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
