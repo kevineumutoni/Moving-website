@@ -110,6 +110,10 @@
     font-weight: 200px;
     font-family: "Open Sans", sans-serif;
 }
+.banner-span-text{
+    text-decoration: underline;
+    font-weight: bolder;
+}
 .body-main-button{
     background-color: rgb(255, 196, 0);
     width: 20%;
@@ -133,8 +137,9 @@
 
 .about-us{
     display: flex;
-
-
+}
+.about{
+    margin-top: 150px;
 }
 .container {
     position: relative;
@@ -407,7 +412,7 @@
     font-size: 20px;
 }
 .riaad-company{
-    background-image: url(images/chairs.jpeg);
+    background-image: url(images/chose-us-01.jpg);
     width: 15%;
     height: 60vh;
     background-size: cover;
@@ -416,7 +421,7 @@
  
 }
 .riaad-company-div{
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, .7);
     width: 80%;
   
     padding: 70px;
@@ -452,13 +457,17 @@
     border-radius: 20px;
     margin-right: 10px;
 }
-.fourth-part{
+.fourth-section{
     display: flex;
     width: 100%;
     justify-content: space-between;
     gap: 300px;
 
 
+}
+.fourth{
+    margin-left: 150px;
+    margin-top: 80px;
 }
 .riadd-texts-icons{
     width: 100%;
@@ -471,7 +480,7 @@
     font-size: 70px;
 }
 .riadd-texts-icons p{
-    font-size: 30px;
+    font-size: 18px;
 }
 .book-online{
     color: orange;
