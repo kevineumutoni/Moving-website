@@ -762,3 +762,95 @@
     text-align: center;
 
 }
+/* Going to the footer part last section of our page */
+.footer {
+    background: #222;
+    color: white;
+
+}
+
+.footer-top {
+    background: #f4a20c;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    gap: 200px;
+}
+
+.footer-highlight {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.black-button {
+    background: rgb(44, 43, 43);
+    color: white;
+    width: 200px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    margin-left: 250px;
+}
+
+
+.footer-label {
+  
+    font-size: 15px;
+}
+
+.footer-detail {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#twitter{
+    color: orange;
+}
+.footer-links h4{
+    font-size: 20px;
+}
